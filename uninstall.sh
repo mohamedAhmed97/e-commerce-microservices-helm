@@ -1,0 +1,11 @@
+helm uninstall adserviceservice
+helm uninstall cartservice
+helm uninstall catalogservice
+helm uninstall checkoutservice
+helm uninstall currencyservice
+helm uninstall emailservice
+helm uninstall frontservice
+helm uninstall paymentservice
+helm uninstall recommendationservice
+helm uninstall redisservice
+helm uninstall shippingservice

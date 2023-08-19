@@ -1,0 +1,11 @@
+replicaCount: 1
+appName: serviceName
+imageName: imageName
+appVersion: v0.2.3
+containerPort: 8080
+containerEnvVars:
+- name: PORT
+  value: "8080"
+
+serviceType: ClusterIP
+servicePort: 5000
